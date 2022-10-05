@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../rri_control_1.0/hdl/rri_control_v1_0.vhd" \
+"../../../../../rri_control_1.0/hdl/rri_control_v1_0_M_DAC_AXIS.vhd" \
+"../../../../../rri_control_1.0/hdl/rri_control_v1_0_S_ADC2DMA_AXIS.vhd" \
+"../../../../../rri_control_1.0/hdl/rri_control_v1_0_S_AXI_LITE.vhd" \
+"../../../../../rri_control_1.0/src/tb_rri_control.vhd" \
+
+# Do not sort compile order
+nosort

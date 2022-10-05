@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_rri_control_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_rri_control" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999989fs"></ZoomStartTime>
+      <ZoomEndTime time="1000003fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject type="logic" fp_name="/tb_rri_control/s_clk_axi">
+      <obj_property name="ElementShortName">s_clk_axi</obj_property>
+      <obj_property name="ObjectShortName">s_clk_axi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_clk_axis">
+      <obj_property name="ElementShortName">s_clk_axis</obj_property>
+      <obj_property name="ObjectShortName">s_clk_axis</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_rst_axi">
+      <obj_property name="ElementShortName">s_rst_axi</obj_property>
+      <obj_property name="ObjectShortName">s_rst_axi</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_rst_axis">
+      <obj_property name="ElementShortName">s_rst_axis</obj_property>
+      <obj_property name="ObjectShortName">s_rst_axis</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_aclk">
+      <obj_property name="ElementShortName">s_s_axi_lite_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_aresetn">
+      <obj_property name="ElementShortName">s_s_axi_lite_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_axi_lite_awaddr">
+      <obj_property name="ElementShortName">s_s_axi_lite_awaddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_awaddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_axi_lite_awprot">
+      <obj_property name="ElementShortName">s_s_axi_lite_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_awvalid">
+      <obj_property name="ElementShortName">s_s_axi_lite_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_awready">
+      <obj_property name="ElementShortName">s_s_axi_lite_awready</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_awready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_axi_lite_wdata">
+      <obj_property name="ElementShortName">s_s_axi_lite_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_axi_lite_wstrb">
+      <obj_property name="ElementShortName">s_s_axi_lite_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_wvalid">
+      <obj_property name="ElementShortName">s_s_axi_lite_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_wready">
+      <obj_property name="ElementShortName">s_s_axi_lite_wready</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_wready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_axi_lite_bresp">
+      <obj_property name="ElementShortName">s_s_axi_lite_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_bvalid">
+      <obj_property name="ElementShortName">s_s_axi_lite_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_bready">
+      <obj_property name="ElementShortName">s_s_axi_lite_bready</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_axi_lite_araddr">
+      <obj_property name="ElementShortName">s_s_axi_lite_araddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_araddr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_axi_lite_arprot">
+      <obj_property name="ElementShortName">s_s_axi_lite_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_arvalid">
+      <obj_property name="ElementShortName">s_s_axi_lite_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_arready">
+      <obj_property name="ElementShortName">s_s_axi_lite_arready</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_axi_lite_rdata">
+      <obj_property name="ElementShortName">s_s_axi_lite_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_axi_lite_rresp">
+      <obj_property name="ElementShortName">s_s_axi_lite_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_rvalid">
+      <obj_property name="ElementShortName">s_s_axi_lite_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_axi_lite_rready">
+      <obj_property name="ElementShortName">s_s_axi_lite_rready</obj_property>
+      <obj_property name="ObjectShortName">s_s_axi_lite_rready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_adc_axis_aclk">
+      <obj_property name="ElementShortName">s_s_adc_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_s_adc_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_adc_axis_aresetn">
+      <obj_property name="ElementShortName">s_s_adc_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_s_adc_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_adc_axis_tready">
+      <obj_property name="ElementShortName">s_s_adc_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_s_adc_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_adc_axis_tdata">
+      <obj_property name="ElementShortName">s_s_adc_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_adc_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_s_adc_axis_tstrb">
+      <obj_property name="ElementShortName">s_s_adc_axis_tstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_s_adc_axis_tstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_adc_axis_tlast">
+      <obj_property name="ElementShortName">s_s_adc_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_s_adc_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_s_adc_axis_tvalid">
+      <obj_property name="ElementShortName">s_s_adc_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_s_adc_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dma_axis_aclk">
+      <obj_property name="ElementShortName">s_m_dma_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_m_dma_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dma_axis_aresetn">
+      <obj_property name="ElementShortName">s_m_dma_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_m_dma_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dma_axis_tvalid">
+      <obj_property name="ElementShortName">s_m_dma_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_m_dma_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_m_dma_axis_tdata">
+      <obj_property name="ElementShortName">s_m_dma_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_m_dma_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_m_dma_axis_tstrb">
+      <obj_property name="ElementShortName">s_m_dma_axis_tstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_m_dma_axis_tstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dma_axis_tlast">
+      <obj_property name="ElementShortName">s_m_dma_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_m_dma_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dma_axis_tready">
+      <obj_property name="ElementShortName">s_m_dma_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_m_dma_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dac_axis_aclk">
+      <obj_property name="ElementShortName">s_m_dac_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_m_dac_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dac_axis_aresetn">
+      <obj_property name="ElementShortName">s_m_dac_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_m_dac_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dac_axis_tvalid">
+      <obj_property name="ElementShortName">s_m_dac_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_m_dac_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_m_dac_axis_tdata">
+      <obj_property name="ElementShortName">s_m_dac_axis_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_m_dac_axis_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_rri_control/s_m_dac_axis_tstrb">
+      <obj_property name="ElementShortName">s_m_dac_axis_tstrb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_m_dac_axis_tstrb[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dac_axis_tlast">
+      <obj_property name="ElementShortName">s_m_dac_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_m_dac_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_rri_control/s_m_dac_axis_tready">
+      <obj_property name="ElementShortName">s_m_dac_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_m_dac_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_rri_control/g_period_axi">
+      <obj_property name="ElementShortName">g_period_axi</obj_property>
+      <obj_property name="ObjectShortName">g_period_axi</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_rri_control/g_period_axis">
+      <obj_property name="ElementShortName">g_period_axis</obj_property>
+      <obj_property name="ObjectShortName">g_period_axis</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_rri_control/g_timeout">
+      <obj_property name="ElementShortName">g_timeout</obj_property>
+      <obj_property name="ObjectShortName">g_timeout</obj_property>
+   </wvobject>
+</wave_config>

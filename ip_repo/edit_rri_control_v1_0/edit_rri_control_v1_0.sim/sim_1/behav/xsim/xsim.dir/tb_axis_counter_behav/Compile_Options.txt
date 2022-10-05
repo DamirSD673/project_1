@@ -1,0 +1,1 @@
+-wto "0bf6f614c9394e489a68a8bb27c78170" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "tb_axis_counter_behav" "xil_defaultlib.tb_axis_counter" -log "elaborate.log" 

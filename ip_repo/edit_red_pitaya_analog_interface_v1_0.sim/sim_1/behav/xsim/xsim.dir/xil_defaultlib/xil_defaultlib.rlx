@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/alex/zynq/red-pitaya/ip_repo/red_pitaya_analog_interface_1.0/hdl/red_pitaya_analog_interface_v1_0.vhd,1660039915,vhdl,,,,red_pitaya_analog_interface_v1_0,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/red_pitaya_analog_interface_1.0/hdl/red_pitaya_analog_interface_v1_0_ADC_AXIS.vhd,1660040977,vhdl,,,,red_pitaya_analog_interface_v1_0_adc_axis,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/red_pitaya_analog_interface_1.0/hdl/red_pitaya_analog_interface_v1_0_DAC_AXIS.vhd,1660040526,vhdl,,,,red_pitaya_analog_interface_v1_0_dac_axis,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/red_pitaya_analog_interface_1.0/hdl/tb_red_pitaya_analog_interface_v1_0.vhd,1660040461,vhdl,,,,tb_red_pitaya_analog_interface_v1_0,,,,,,,,

@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../red_pitaya_analog_interface_1.0/hdl/red_pitaya_analog_interface_v1_0_ADC_AXIS.vhd" \
+"../../../../red_pitaya_analog_interface_1.0/hdl/red_pitaya_analog_interface_v1_0_DAC_AXIS.vhd" \
+"../../../../red_pitaya_analog_interface_1.0/hdl/red_pitaya_analog_interface_v1_0.vhd" \
+"../../../../red_pitaya_analog_interface_1.0/hdl/tb_red_pitaya_analog_interface_v1_0.vhd" \
+
+# Do not sort compile order
+nosort

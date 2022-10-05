@@ -1,0 +1,1 @@
+-wto "f94432e1299543bdb2ffb6bbc4aa41cb" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "tb_red_pitaya_analog_interface_v1_0_behav" "xil_defaultlib.tb_red_pitaya_analog_interface_v1_0" -log "elaborate.log" 

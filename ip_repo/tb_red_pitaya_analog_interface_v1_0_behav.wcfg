@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_red_pitaya_analog_interface_v1_0_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_red_pitaya_analog_interface_v1_0" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="291"></NameColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_clk">
+      <obj_property name="ElementShortName">s_clk</obj_property>
+      <obj_property name="ObjectShortName">s_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_rst">
+      <obj_property name="ElementShortName">s_rst</obj_property>
+      <obj_property name="ObjectShortName">s_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_clk_p">
+      <obj_property name="ElementShortName">s_adc_clk_p</obj_property>
+      <obj_property name="ObjectShortName">s_adc_clk_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_clk_n">
+      <obj_property name="ElementShortName">s_adc_clk_n</obj_property>
+      <obj_property name="ObjectShortName">s_adc_clk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/aclk">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/ddr_clk">
+      <obj_property name="ElementShortName">ddr_clk</obj_property>
+      <obj_property name="ObjectShortName">ddr_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/iqclk">
+      <obj_property name="ElementShortName">iqclk</obj_property>
+      <obj_property name="ObjectShortName">iqclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/dac_clk">
+      <obj_property name="ElementShortName">dac_clk</obj_property>
+      <obj_property name="ObjectShortName">dac_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/pll_locked">
+      <obj_property name="ElementShortName">pll_locked</obj_property>
+      <obj_property name="ObjectShortName">pll_locked</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/red_pitaya_analog_interface_v1_0_DAC_AXIS_inst/int_reset_reg">
+      <obj_property name="ElementShortName">int_reset_reg</obj_property>
+      <obj_property name="ObjectShortName">int_reset_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/dac_rst">
+      <obj_property name="ElementShortName">dac_rst</obj_property>
+      <obj_property name="ObjectShortName">dac_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/dac_sel">
+      <obj_property name="ElementShortName">dac_sel</obj_property>
+      <obj_property name="ObjectShortName">dac_sel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/dac_wrt">
+      <obj_property name="ElementShortName">dac_wrt</obj_property>
+      <obj_property name="ObjectShortName">dac_wrt</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_red_pitaya_analog_interface_v1_0/dut/dac_data">
+      <obj_property name="ElementShortName">dac_data[13:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_data[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_red_pitaya_analog_interface_v1_0/value_counter">
+      <obj_property name="ElementShortName">value_counter[15:0]</obj_property>
+      <obj_property name="ObjectShortName">value_counter[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_data_counter">
+      <obj_property name="ElementShortName">s_adc_data_counter[13:0]</obj_property>
+      <obj_property name="ObjectShortName">s_adc_data_counter[13:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_data_a">
+      <obj_property name="ElementShortName">s_adc_data_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_adc_data_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_data_b">
+      <obj_property name="ElementShortName">s_adc_data_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_adc_data_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_csn">
+      <obj_property name="ElementShortName">s_adc_csn</obj_property>
+      <obj_property name="ObjectShortName">s_adc_csn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_axis_aclk">
+      <obj_property name="ElementShortName">s_adc_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_adc_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_axis_aresetn">
+      <obj_property name="ElementShortName">s_adc_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_adc_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_axis_tvalid">
+      <obj_property name="ElementShortName">s_adc_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_adc_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_axis_tdata">
+      <obj_property name="ElementShortName">s_adc_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_adc_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_adc_axis_tready">
+      <obj_property name="ElementShortName">s_adc_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_adc_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_dac_axis_aclk">
+      <obj_property name="ElementShortName">s_dac_axis_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_dac_axis_aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_dac_axis_aresetn">
+      <obj_property name="ElementShortName">s_dac_axis_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_dac_axis_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_dac_axis_tvalid">
+      <obj_property name="ElementShortName">s_dac_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_dac_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_dac_axis_tdata">
+      <obj_property name="ElementShortName">s_dac_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_dac_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_red_pitaya_analog_interface_v1_0/s_dac_axis_tready">
+      <obj_property name="ElementShortName">s_dac_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_dac_axis_tready</obj_property>
+   </wvobject>
+</wave_config>

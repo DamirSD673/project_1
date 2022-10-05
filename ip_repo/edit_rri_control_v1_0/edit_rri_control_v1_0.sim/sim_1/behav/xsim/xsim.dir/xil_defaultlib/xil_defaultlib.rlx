@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/alex/zynq/red-pitaya/ip_repo/edit_rri_control_v1_0/edit_rri_control_v1_0.sim/sim_1/behav/xsim/glbl.v,1651521220,verilog,,,,glbl,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/edit_rri_control_v1_0/edit_rri_control_v1_0.srcs/sources_1/ip/dac_block_ram_gen/sim/dac_block_ram_gen.v,1660228199,verilog,,,,dac_block_ram_gen,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/rri_control_1.0/hdl/rri_control_v1_0.vhd,1660824007,vhdl,,,,rri_control_v1_0,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/rri_control_1.0/hdl/rri_control_v1_0_M_DAC_AXIS.vhd,1660226958,vhdl,,,,rri_control_v1_0_m_dac_axis,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/rri_control_1.0/hdl/rri_control_v1_0_M_DMA_AXIS.vhd,1656065084,vhdl,,,,rri_control_v1_0_m_dma_axis,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/rri_control_1.0/hdl/rri_control_v1_0_S_ADC2DMA_AXIS.vhd,1662118583,vhdl,,,,rri_control_v1_0_s_adc2dma_axis,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/rri_control_1.0/hdl/rri_control_v1_0_S_AXI_LITE.vhd,1656065084,vhdl,,,,rri_control_v1_0_s_axi_lite,,,,,,,,
+/home/alex/zynq/red-pitaya/ip_repo/rri_control_1.0/src/tb_rri_control.vhd,1660120498,vhdl,,,,tb_rri_control,,,,,,,,
